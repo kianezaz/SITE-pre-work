@@ -57,3 +57,11 @@ button {
 #button4:active, #button4.lit {
   background: yellow;
 }
+
+#button5 {
+  background: cyan;
+}
+
+#button5:active, #button5.lit {
+  background: darkcyan;
+}
