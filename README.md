@@ -22,6 +22,8 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 
+* [x] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [x] More than 4 functional game buttons
 * [x] Computer picks a different pattern each time the game is played
 
 ## Video Walkthrough
