@@ -24,7 +24,9 @@ The following **required** functionality is complete:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![](https://cdn.glitch.com/1d7d95cb-e5e3-4bb3-8600-2326c6282ee6%2Fezgif.com-video-to-gif.gif?v=1616635630445)
+
 ![](https://cdn.glitch.com/1d7d95cb-e5e3-4bb3-8600-2326c6282ee6%2Fezgif.com-video-to-gif-2.gif?v=1616636213902)
 
 
