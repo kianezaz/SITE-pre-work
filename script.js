@@ -4,7 +4,7 @@ const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback
 
 //Global Variables
-var pattern = generatePattern();
+var pattern;
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
@@ -23,6 +23,7 @@ function startGame() {
   //initialize game variables
   progress = 0;
   gamePlaying = true;
+  pattern = generatePattern();
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
