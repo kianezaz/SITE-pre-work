@@ -20,6 +20,9 @@ The following **required** functionality is complete:
 * [x] User wins the game after guessing a complete pattern
 * [x] User loses the game after an incorrect guess
 
+The following **optional** features are implemented:
+
+* [x] Computer picks a different pattern each time the game is played
 
 ## Video Walkthrough
 
