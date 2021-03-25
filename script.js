@@ -14,7 +14,7 @@ var guessCounter = 0;
 function generatePattern() {
   let pattern = [];
   for (let i = 0; i < 8; i++) {
-    pattern.push(Math.floor(Math.random() * 4 + 1));
+    pattern.push(Math.floor(Math.random() * 5 + 1));
   }
   return pattern;
 }
@@ -38,10 +38,11 @@ function stopGame() {
 
 // Sound Synthesis Functions
 const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2
+  1: 289.7,
+  2: 710.3,
+  3: 190.1,
+  4: 380.5,
+  5: 550.0
 }
 function playTone(btn,len){ 
   o.frequency.value = freqMap[btn]
@@ -135,5 +136,4 @@ function guess(btn){
   else {
     loseGame();
   }
-  // add game logic here
 }
